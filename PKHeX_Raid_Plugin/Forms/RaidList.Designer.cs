@@ -142,7 +142,7 @@
             this.L_Shiny.Name = "L_Shiny";
             this.L_Shiny.Size = new System.Drawing.Size(36, 13);
             this.L_Shiny.TabIndex = 24;
-            this.L_Shiny.Text = "闪!";
+            this.L_Shiny.Text = "闪光";
             // 
             // label1
             // 
@@ -190,7 +190,7 @@
             this.L_Location.Name = "L_Location";
             this.L_Location.Size = new System.Drawing.Size(54, 13);
             this.L_Location.TabIndex = 18;
-            this.L_Location.Text = "$Location";
+            this.L_Location.Text = "$地点";
             // 
             // L_SpA
             // 
@@ -337,7 +337,7 @@
             this.CHK_Rare.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.CHK_Rare.Size = new System.Drawing.Size(73, 17);
             this.CHK_Rare.TabIndex = 5;
-            this.CHK_Rare.Text = "稀有坑(紫柱)";
+            this.CHK_Rare.Text = "稀有坑紫柱";
             this.CHK_Rare.UseVisualStyleBackColor = true;
             // 
             // TB_ATK_IV1
