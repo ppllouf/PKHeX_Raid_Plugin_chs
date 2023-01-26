@@ -8,8 +8,8 @@ namespace PKHeX_Raid_Plugin
 {
     public class RaidPlugin : IPlugin
     {
-        public string Name => "Display Raids";
-        public static string Name_Finder => "Raid Seed Finder";
+        public string Name => "剑盾闪坑修改器";
+        public static string Name_Finder => "剑盾Seed计算器";
 
         public int Priority => 1;
 

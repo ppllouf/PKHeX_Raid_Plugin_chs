@@ -303,7 +303,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(184, 27);
             this.button1.TabIndex = 8;
-            this.button1.Text = "帧计算器";
+            this.button1.Text = "Seed检索器";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.ShowDenIVs);
             // 
@@ -706,7 +706,7 @@
             this.Name = "RaidList";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "坑位列表";
+            this.Text = "坑位信息";
             this.GB_Left.ResumeLayout(false);
             this.GB_Left.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_PK1)).EndInit();

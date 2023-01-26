@@ -40,7 +40,7 @@ namespace PKHeX_Raid_Plugin
 
         private void SeedSlow_Click(object sender, EventArgs e)
         {
-            var result = WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "This might take several minutes. This method should only be used if the fast one does not yield result. Are you sure you want to use this method?");
+            var result = WinFormsUtil.Prompt(MessageBoxButtons.YesNo, "这可能需要几分钟。这种方法只能在快速方法不能产生结果的情况下使用。确实要使用此方法吗?");
             if (result == DialogResult.Yes)
             {
                 if (ECBox.Text.Length == 0) return;
@@ -65,7 +65,7 @@ namespace PKHeX_Raid_Plugin
                     return $"{seed:X16}";
                 }
             }
-            return "No seed found";
+            return "没找到Seed";
         }
 
         private void SeedFast_Click(object sender, EventArgs e)
@@ -82,7 +82,7 @@ namespace PKHeX_Raid_Plugin
             }
             catch (Exception ex)
             {
-                WinFormsUtil.Error("This method requires Z3. Please add Z3 to your path." + Environment.NewLine + ex.Message, "Cannot calculate seed");
+                WinFormsUtil.Error("此方法需要 Z3。请将 Z3添加到路径中." + Environment.NewLine + ex.Message, "无法计算seed");
             }
         }
 

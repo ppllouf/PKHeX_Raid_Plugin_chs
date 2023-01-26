@@ -40,7 +40,7 @@ namespace PKHeX_Raid_Plugin
             var s = GameInfo.Strings;
             L_Ability.Text = $"特性: {s.Ability[pkm.Ability]}";
             L_Nature.Text = $"性格: {s.natures[pkm.Nature]}";
-            L_ShinyInFrames.Text = $"下一个坑位帧数: {RandUtil.GetNextShinyFrame(raidParameters.Seed)}";
+            L_ShinyInFrames.Text = $"下一个闪坑: {RandUtil.GetNextShinyFrame(raidParameters.Seed)}帧";
             L_Shiny.Visible = pkm.ShinyType != 0;
             L_Shiny.Text = pkm.ShinyType == 1 ? "闪光: Star" : pkm.ShinyType == 2? (pkm.ForcedShinyType == 2 ? "Shiny: Forced Square" : "Shiny: Square!!!") : "Shiny locked";
 

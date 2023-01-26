@@ -35,21 +35,21 @@ namespace PKHeX_Raid_Plugin
         {
             System.Media.SystemSounds.Hand.Play();
             string msg = string.Join(Environment.NewLine + Environment.NewLine, lines);
-            return MessageBox.Show(msg, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            return MessageBox.Show(msg, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         internal static DialogResult Alert(params string[] lines)
         {
             System.Media.SystemSounds.Asterisk.Play();
             string msg = string.Join(Environment.NewLine + Environment.NewLine, lines);
-            return MessageBox.Show(msg, "Alert", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            return MessageBox.Show(msg, "警告", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         internal static DialogResult Prompt(MessageBoxButtons btn, params string[] lines)
         {
             System.Media.SystemSounds.Question.Play();
             string msg = string.Join(Environment.NewLine + Environment.NewLine, lines);
-            return MessageBox.Show(msg, "Prompt", btn, MessageBoxIcon.Asterisk);
+            return MessageBox.Show(msg, "提示", btn, MessageBoxIcon.Asterisk);
         }
     }
 }
