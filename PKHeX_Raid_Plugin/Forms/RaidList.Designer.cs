@@ -104,7 +104,7 @@
             this.GB_Left.Size = new System.Drawing.Size(227, 419);
             this.GB_Left.TabIndex = 0;
             this.GB_Left.TabStop = false;
-            this.GB_Left.Text = "坑位列表";
+            this.GB_Left.Text = "巢穴列表";
             // 
             // CHK_Watts
             // 
@@ -293,7 +293,7 @@
             this.CHK_Event.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.CHK_Event.Size = new System.Drawing.Size(78, 17);
             this.CHK_Event.TabIndex = 9;
-            this.CHK_Event.Text = "活动坑";
+            this.CHK_Event.Text = "活动巢穴";
             this.CHK_Event.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -337,7 +337,7 @@
             this.CHK_Rare.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.CHK_Rare.Size = new System.Drawing.Size(73, 17);
             this.CHK_Rare.TabIndex = 5;
-            this.CHK_Rare.Text = "稀有坑紫柱";
+            this.CHK_Rare.Text = "稀有巢穴紫柱";
             this.CHK_Rare.UseVisualStyleBackColor = true;
             // 
             // TB_ATK_IV1
@@ -706,7 +706,7 @@
             this.Name = "RaidList";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "坑位信息";
+            this.Text = "巢穴信息";
             this.GB_Left.ResumeLayout(false);
             this.GB_Left.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_PK1)).EndInit();
